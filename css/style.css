@@ -41,53 +41,89 @@ body{
 }
 
 /*HEDER*/
+/*стилізація hedera*/
+
 .container{
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    padding: 0 15px;
 }
 
 .header-container{
     display: flex;
-    border-bottom:  1px solid #ECECEC;    
+    align-items: center;
+}
+
+.header-container{
+    border: 1px solid #ECECEC;
 }
 
 .logo-container{
     display: flex;
-    margin-left: 215px;
     align-items: center;
+
+}
+
+.main-part{
+    padding-right: 93px;
+    padding-top: 23px;
+
+
 }
 
 .nav-list{
     display: flex;
-    margin-left: 93px;
+    align-items: center;
+    margin-right: 344px;
 }
+
+.header-nav-link,
+.header-mail-link,
+.header-tel-link {
+    display: block;
+    padding: 32px 0;
+}
+
+
+.header-nav-item:not(:last-child){
+    margin-right: 50px;
+}
+
 
 .header-info-list{
     display: flex;
-    margin-left: 344px;
+    align-items: center;
 }
 
-.header-nav-item:not(:first-child){
-    margin-left: 50px;
+.header-main-list:not(:last-child){
+    margin-right: 50px;
 }
 
-.header-main-list:not(:first-child){
-    margin-left: 50px;
+/*стилізація hedera кінець*/
+
+/*стилізація портфоліо початок*/
+.portf-btn{
+    display: flex;
+    gap: 8px;
+    margin: 100px 0 50px 0;
+    justify-content: center;
+   
 }
 
-.header-nav-link{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: inline-block;
+.header-prodj-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.header-mail-link,
-.header-tel-link{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: inline-block;
+.prodj-photo-list{
+    flex-basis: calc((100% - 30px * 8)/9);
+
 }
+
+
+
+/*стилізація портфорлио кінець*/
 
 .firt-part{
     font-family: 'Raleway',sans-serif;
@@ -187,37 +223,45 @@ body{
 }
 
 .visually-hidden{
-    position:absolute;
-    width:1px;
+    position: absolute;
+    width: 1px;
     height: 1px;
+    margin: -1px;
     border: 0;
     padding: 0;
-    white-space:nowrap;
-    clip-path: inset(100%);
-    clip: rect(0000);
-    overflow: hidden;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+
 }
 .main-btn:hover {
 
 }
 
+/* Блок розмішення секції з описом */
+
 .hero-list{
-    display: inline-block;
+    display: flex;
+    gap: 30px;
 }
 
 .hero-head-item{
-    margin-top: 94px;
-    margin-left: 214px;
+    padding-top: 94px;
+    width: 270px;
+    
 }
 
 .hero-main-post{
-    margin-top: 10px;
-    margin-left: 215px;
-    width: 270 74;
+    padding-top: 10px;
+    width: 270px;
 }
 
 
 
+
+
+/*блок зі стилями для сексції з описом*/
 
 .hero-head-item {
    font-weight: 700;
@@ -233,6 +277,12 @@ body{
  line-height:calc(24/14);
  letter-spacing: 0.03em;
  color: var(--second-text-color);
+}
+
+
+.hero-todo-list{
+   padding-top: 118px;
+   padding-bottom: 50px;
 }
 
 .hero-todo-list {
@@ -251,6 +301,60 @@ body{
     background-color: #FFFFFF;
 }
 
+
+
+/*Стилізація блоку з картинками*/
+.hero-elem-list{
+    display: flex;
+    gap: 30px;
+}
+
+
+/*Стилізація команди*/
+
+.section-lead{
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
+}
+
+.our-team-lead{
+    padding-bottom: 50px;
+}
+.photo-team-list{
+    flex-basis: calc((100% - 30px * 3) / 4);
+}
+.list-team-lead{
+    display: flex;
+    gap: 30px;
+    padding-left: 215px;
+    padding-right: 215px;
+
+}
+
+.team-lead-name{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 4px 0px 4px 4px
+
+}
+
+.team-lead-skill{
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.list-team-lead{
+    flex-wrap: wrap;
+}
+
+
+/*кынець стилізації*/
+
+.section-lead{
+    background-color: #F5F4FA;
+}
 .our-team-lead{
     font-weight: 700;
     font-size: 36px;
@@ -306,6 +410,23 @@ color: var(--second-text-color);
 
 
 /*FOOTER*/
+/*Стилізація*/
+  
+.main-adress-list{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.footer-loc-link{
+    padding-top: 20px;
+}
+.footer-mail-link,
+.footer-tel-link {
+    padding-top: 9px;
+}
+/*Кінець стилізація*/
+
 .main-adress-list{
    background-color: #2F303A; 
 }
