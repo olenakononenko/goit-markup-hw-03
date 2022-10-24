@@ -52,11 +52,8 @@ body{
 .header-container{
     display: flex;
     align-items: center;
-}
-
-.header-container{
     border: 1px solid #ECECEC;
-}
+} 
 
 .logo-container{
     display: flex;
@@ -66,9 +63,7 @@ body{
 
 .main-part{
     padding-right: 93px;
-    padding-top: 23px;
-
-
+    align-items: center;
 }
 
 .nav-list{
@@ -102,6 +97,12 @@ body{
 /*стилізація hedera кінець*/
 
 /*стилізація портфоліо початок*/
+
+.main-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .portf-btn{
     display: flex;
     gap: 8px;
@@ -312,7 +313,7 @@ body{
 
 /*Стилізація команди*/
 
-.section-lead{
+.section-lead {
     padding-top: 94px;
     padding-bottom: 94px;
    
