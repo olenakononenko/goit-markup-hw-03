@@ -427,37 +427,36 @@ color: var(--second-text-color);
 
 /*FOOTER*/
 /*Стилізація*/
-.main-part{
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
 
-.main-adress-list{
+.main-adress-footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-adress{
-   display: block;
-   margin-left: 20px;
+
+.footer-container{
+    display: block;
 }
 
-.footer-main-list:not(:firt-child){
-    margin-top: 9px;
-}
-
-
-.footer-loc-link,
-.footer-mail-link{
-    margin-bottom: 9px;
+.main-part{
+    display: block;
+    margin-bottom: 20px;
 }
 
 .footer-loc-link{
     margin-top: 20px;
 }
 
+.footer-mail-link,
+.footer-tel-link{
+    display: block;
+    margin-top: 9px;
+}
+
+
+
 /*Кінець стилізація*/
 
-.main-adress-list{
+.main-adress-footer{
    background-color: #2F303A; 
 }
 .footer-loc-link{
