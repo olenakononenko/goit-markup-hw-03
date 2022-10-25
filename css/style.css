@@ -49,10 +49,13 @@ body{
     padding: 0 15px;
 }
 
+.header-part{
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-container{
     display: flex;
     align-items: center;
-    border: 1px solid #ECECEC;
 } 
 
 .logo-container{
@@ -61,9 +64,8 @@ body{
 
 }
 
-.main-part{
-    padding-right: 93px;
-    align-items: center;
+.header-main-part{
+    margin-right: 93px;
 }
 
 .nav-list{
@@ -116,6 +118,22 @@ body{
     gap: 30px;
 }
 
+.list-into{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+
+}
+
+.main-btn-portf{
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+
+.prodj-soft-type{
+    margin-bottom: 4px;
+}
 .prodj-photo-list{
     flex-basis: calc((100% - 30px * 8)/9);
 
@@ -182,8 +200,7 @@ body{
 .hero-main-link {
    width: 696px;
    margin: 0 auto;
-   margin-top: 200px;
-   margin-bottom: 40px;
+   margin-bottom: 30px;
 
  font-weight: 900;
  font-size: 44px;
@@ -204,13 +221,12 @@ body{
     cursor: pointer;
 }
 .main-btn{
-    border-radius: 4px;
     padding: 10px 32px;
     display: inline-block;
     border-radius: 4px;
+    border: none;
     margin: 0 auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin-bottom: 210px;
  font-weight: 700;
  font-size: 16px;
  line-height:calc(30/16);
@@ -241,27 +257,31 @@ body{
 
 /* Блок розмішення секції з описом */
 
+.section-hero{
+    padding-top: 94px;
+}
+
 .hero-list{
     display: flex;
     gap: 30px;
 }
 
-.hero-head-item{
-    padding-top: 94px;
-    width: 270px;
-    
-}
-
 .hero-main-post{
-    padding-top: 10px;
-    width: 270px;
+    margin-top: 10px;
 }
 
-
-
-
+.hero-head{
+    flex-basis: calc((100% - 30px * 3) / 4);
+}
 
 /*блок зі стилями для сексції з описом*/
+
+
+.sect-electr{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 .hero-head-item {
    font-weight: 700;
@@ -272,16 +292,16 @@ body{
  color: #212121;
 }
 .hero-main-post {
- font-weight: 400;
  font-size: 14px;
  line-height:calc(24/14);
  letter-spacing: 0.03em;
  color: var(--second-text-color);
 }
 
-
+.hero-elem-list {
+    margin-top: 50px;
+}
 .hero-todo-list{
-   padding-top: 118px;
    padding-bottom: 50px;
 }
 
@@ -319,7 +339,7 @@ body{
 }
 
 .our-team-lead{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .photo-team-list{
     flex-basis: calc((100% - 30px * 3) / 4);
@@ -327,14 +347,11 @@ body{
 .list-team-lead{
     display: flex;
     gap: 30px;
-    padding-left: 215px;
-    padding-right: 215px;
-
 }
 
 .team-lead-name{
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     border-radius: 4px 0px 4px 4px
 
 }
@@ -350,7 +367,7 @@ body{
 }
 
 
-/*кынець стилізації*/
+/*кінець стилізації*/
 
 .section-lead{
     background-color: #F5F4FA;
@@ -411,20 +428,28 @@ color: var(--second-text-color);
 
 /*FOOTER*/
 /*Стилізація*/
-  
+
+
 .main-adress-list{
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
+.footer-adress{
+   display: block;
+   margin-left: 20px;
+}
+
+.
+.footer-loc-link,
+.footer-mail-link{
+    margin-bottom: 9px;
+}
 
 .footer-loc-link{
-    padding-top: 20px;
+    margin-top: 20px;
 }
-.footer-mail-link,
-.footer-tel-link {
-    padding-top: 9px;
-}
+
 /*Кінець стилізація*/
 
 .main-adress-list{
