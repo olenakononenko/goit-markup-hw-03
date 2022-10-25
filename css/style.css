@@ -92,9 +92,7 @@ body{
     align-items: center;
 }
 
-.header-main-list:not(:last-child){
-    margin-right: 50px;
-}
+
 
 /*стилізація hedera кінець*/
 
@@ -128,7 +126,7 @@ body{
 
 .main-btn-portf{
     background: #F5F4FA;
-    border-radius: 4px;
+    border: none;
     padding: 6px 22px;
 }
 
@@ -300,9 +298,7 @@ body{
 .hero-elem-list {
     margin-top: 50px;
 }
-.hero-todo-list{
-   padding-bottom: 50px;
-}
+
 
 .hero-todo-list {
     font-weight: 700;
@@ -427,16 +423,22 @@ color: var(--second-text-color);
 
 /*FOOTER*/
 /*Стилізація*/
-
+.main-part{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
 
 .main-adress-list{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .footer-adress{
    display: block;
    margin-left: 20px;
+}
+
+.footer-main-list:not(:firt-child){
+    margin-top: 9px;
 }
 
 
