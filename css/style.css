@@ -68,6 +68,10 @@ body{
     margin-right: 93px;
 }
 
+.header-main-list:not(:last-child){
+    padding-right: 50px;
+}
+
 .nav-list{
     display: flex;
     align-items: center;
