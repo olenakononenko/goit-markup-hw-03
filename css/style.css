@@ -101,13 +101,14 @@ body{
 /*стилізація портфоліо початок*/
 
 .main-portfolio{
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .portf-btn{
     display: flex;
     gap: 8px;
-    margin: 100px 0 50px 0;
+    margin-bottom: 50px;
     justify-content: center;
    
 }
